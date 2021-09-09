@@ -1,0 +1,8 @@
+<audio id="myaudio" autoplay="true" loop="loop" controls="controls">
+<source src="https://hwfestival.com.br/wp-content/uploads/2021/09/musica_hwfestival.mp3" type="audio/mp3" />
+</audio>
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
+</script>
